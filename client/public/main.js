@@ -15,8 +15,8 @@ const createWindow = () => {
 		}
 	})
   
+	win.removeMenu();
 	win.loadURL('http://localhost:3000');
-	win.webContents.openDevTools();
 }
 
 app.whenReady().then(() => {

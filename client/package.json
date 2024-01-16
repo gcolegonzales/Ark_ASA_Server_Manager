@@ -2,6 +2,7 @@
   "name": "reactronapp",
   "version": "0.1.0",
   "private": true,
+  "productName": "Ark ASA Server Manager",
   "main": "public/main.js",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
