@@ -19,7 +19,7 @@ export const Navbar = () => {
       </div>
       <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
         <ul onClick={toggleSidebar} className='nav-menu-items'>
-          {/* These menu items will probably be more like a search filter that only shows specific panels or something maybe. */}
+          {/* These menu items will probably be more like a search filter that onlyshows specificpanels or something maybe. */}
           <li className='navbar-toggle'>
             <Link to='#' className='menu-bars'>
               <AiIcons.AiOutlineClose />
