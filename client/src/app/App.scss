@@ -1,8 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import '../variables.scss';
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+}
+
+.app {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.main-content {
+  background-color: white;
+  display: flex;
+  height: $content-height;
+  margin: 20px 40px 60px 40px;
+  padding: 10px 20px;
+  box-shadow: 0 0 7px #e0e0e0;
 }

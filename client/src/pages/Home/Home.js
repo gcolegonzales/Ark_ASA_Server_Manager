@@ -1,14 +1,12 @@
 import './Home.scss'
-import { useEffect } from 'react';
 
-export const Home = () => {
-  useEffect(() => {
-    console.log('Testing Home')
-  }, [])
-
+export const Home = ({ server }) => {
   return (
-    <div className="home">
-      <h1>Testing 123</h1>
-    </div>
+    <>
+      <div>
+        <h1>Home</h1>
+        <h5>Server: {server.name}</h5>
+      </div>
+    </>
   );
 }
