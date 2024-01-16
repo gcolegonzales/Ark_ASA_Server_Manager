@@ -1,14 +1,10 @@
 import './Settings.scss'
-import { useEffect } from 'react';
 
-export const Settings = () => {
-  useEffect(() => {
-    console.log('Testing Settings')
-  }, [])
-
+export const Settings = ({ server }) => {
   return (
-    <div className="settings">
-      <h1>Testing Settings</h1>
+    <div>
+      <h1>Settings</h1>
+      <h5>Server: {server.name}</h5>
     </div>
   );
 }
